@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+.admincategorybody{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all .2s linear;
+   text-transform: capitalize;
+   background: #ffe4e4;
+   height: 150vh;
+}
+
+
+
+
+.add-category-container {
+    text-align: center;
+}
+
+.add-category-container > div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category-container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ 
+ .category-container .product {
+    width: calc(33.33% - 2rem);
+    margin: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+
+ .category-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+ }
+ .category-container .product img{
+    height: 25rem;
+ }
+ .category-container .product:hover img{
+    transform: scale(.9);
+ }
+ .category-container .product h3{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:#444;
+ }
+ 
+ .category-container .product:hover h3{
+    color:#27ae60;
+ }
+.add-category {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #26a69a; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-category:hover {
+    background-color: #00796b;
+  }
+
+  .update-category{
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #26a69a; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-category:hover {
+    background-color: #00796b;
+  }
+
+  .delete-category {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #e57373; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-category:hover {
+    background-color: #d32f2f; 
+}
+
+
+.updatecategory{
+   background-color: #562646;
+   color: white;
+   margin-top: 1rem;
+   width: 6rem;
+}
+
+.deletecategory{
+   background-color: #562646;
+   color: white;
+   margin-top: 1rem;
+   width: 10rem;
+}
+
+
+
+.updatecategory:hover{
+   background-color: #e01c1c;
+   color: white;
+}
+
+.deletecategory:hover{
+   background-color: #e01c1c;
+   color: white;
+   
+}

@@ -1,0 +1,51 @@
+.addadminbody {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/userback.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.addadmin {
+    background-color: #562646;
+    color: white;
+    margin-top: 0.3rem;
+}
+
+.addadmin:hover {
+    background-color: rgb(85, 185, 72);
+    color: white;
+}
+
+.deleteadmin {
+    background-color: #562646;
+    color: white;
+
+}
+
+.deleteadmin:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.adminrow {
+    border-bottom: gray;
+}
+
+.adminpro {
+    border-right: gray;
+}
+
+.adminrow:hover {
+    background-color: rgb(226, 178, 178);
+    cursor: pointer;
+}
+
+.admins{
+    background-color: #dad3d8;
+}

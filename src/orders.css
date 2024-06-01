@@ -1,0 +1,36 @@
+.orderbody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e4;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+
+
+.wrapper h1 {
+    color: #562646;
+}
+
+.table-full {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: 20px;
+}
+
+.table-full th,
+.table-full td {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-full th {
+    background-color: #562646;
+    color: #fff;
+}

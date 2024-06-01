@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+#fscustomer {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+
+.customerbody {
+    background: #ffe4e4;
+}
+
+.users {
+    position: relative;
+    width: 750px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border: 2px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px #562646;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow-y: scroll;
+    background: white;
+}
+
+
+#customer-info {
+   order: 1;
+   flex-grow: 1;
+   margin-left: 30px;
+
+}
+
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.customer-info .customers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.customer-info .customers img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.customer-info blockquote {
+    border-left: 5px solid #562646;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+#customer-flower {
+    order: 2;
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+   
+}
+
+.customer-flower {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.customer-flower img {
+    width: 300px; 
+    height: 400px; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

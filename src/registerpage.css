@@ -1,0 +1,221 @@
+
+
+.headerregister {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 99;
+}
+
+.navigation-register a {
+    position: relative;
+    font-size: 1.2em;
+    color: #562646;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.navigation-register a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.navigation-register a:hover::after {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+
+.registerbody {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    height: 100vh;
+    background: url('images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper-register {
+    position: relative;
+    width:400px;
+    height: 530px;
+    background: transparent;
+    border: 2px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px#562646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+
+.wrapper-register .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+
+ .wrapper-register .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #562646;
+    font-size: 2rm;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+ }
+
+.form-box-register h2 {
+    font-size: 2em;
+    color:#562646;
+    text-align: center;
+    margin-top: -130px;
+}
+
+.input-box-register {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid #562646;
+    margin: 30px 0;
+}
+
+.input-box-register label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color:#562646 ;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.input-box-register input:focus~label,
+.input-box-register input:valid~label{
+    top: -5px;
+
+}
+.input-box-register input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #562646;
+    font-weight: 500;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-register .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #562646;
+    line-height: 30px;
+}
+
+.remember-forgot-register{
+    font-size: .9em;
+    color: #562646;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+.remember-forgot-register label input{
+    accent-color: #562646;
+    margin-right: 3px;
+    position: absolute;
+    left: -95px;
+    font-size: 1.5em;
+
+}
+
+#registerbtn{
+    width: 100%;
+    height: 35px;
+    background:#ffe4e4;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color:  #562646;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+.wrapper-register .btn:hover {
+    background: #562646;
+    color: #fff;
+}
+
+.password-validation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.password-validation p {
+    font-size: 0.7em;
+    color: #562646;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.login-register{
+    font-size: .9em;
+    color:#562646 ;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0 10px;
+}
+.login-register p a{
+    color: #562646;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.login-register p a:hover{
+    text-decoration: underline;
+
+}
+
+#Home:hover{
+    cursor: pointer;
+}

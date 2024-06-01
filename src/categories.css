@@ -1,0 +1,141 @@
+#searchbtn:hover {
+    background-color: #562646;
+}
+
+#inputsearch:focus {
+    color: #562646;
+    background-color: #b896ad;
+    box-shadow: #562646;
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #562646;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+#home{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#home:hover{
+    color: #f1f1f1;
+    cursor: pointer;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px #ffe4e4;
+    border-color: #562646;
+}
+
+.iconcategories i{
+    color:#562646
+}
+
+.iconcategories:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(194, 153, 185);
+    
+}
+
+#productcard{
+    display: none;
+    position: fixed;
+    width: 70%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    z-index: 9;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#productcard{
+    box-shadow: 5px 5px gray;
+    
+}
+#productbtn:hover{
+    background-color: #562646;
+    color: white;
+}
+#productbtn{
+    background-color: #ffe4e4;
+    color: #562646;
+    border-radius: 10rem;
+}
+.negetive{
+    background-color: #ffe4e4;
+    border-radius: 30%;
+    color: #562646;
+    border-width: 0.2;
+}
+.positive{
+    background-color: #ffe4e4;
+    border-radius: 30%;
+    color: #562646;
+    border-width: 0.2;
+}
+
+.negetive:hover{
+    background-color: #562646;
+    color: white;
+}
+
+.positive:hover{
+    background-color: #562646;
+    color: white;
+}
